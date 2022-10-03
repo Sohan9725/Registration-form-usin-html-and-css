@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        text-align: center;
+        background-image: url(https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ);
+        
+        
+  background-position: center;
+  -webkit-margin-top-collapse: 0px;
+  
+        
+        font-style: italic;
+        float: inherit;
+        color: rgb(245, 150, 9);
+        text-decoration: dashed.;
+    }
+
+    .value {
+        background-color: silver;
+    }
+
+    .value1 {
+        background-color: rgb(255, 94, 0);
+    }
+
+    .area1 {
+        background-color: silver;
+    }
+
+    iframe {
+        border: 5px solid rgb(0, 0, 0);
+        width: 300px;
+        height: 300px;
+
+    }
+
+    }
+
+    }
+</style>
+
+<body>
+    <form>
+        First name:<input type="text" name="fname" class="value" value="first name" required </input><br><br>
+        Last name: <input type="text" name="lname" class="value" value="last name" required </input> <br><br>
+        Email: <input type="email" name="email" class="value" placeholder="email" </input><br><br>
+        Mobile:<input type="text" name="mobile" class="value" placeholder="Ente mobile" maxlength="10" required
+            </input><br><br>
+        password:<input type="password" name="password" class="value" placeholder="password" required </input> <br><br>
+        Gender:<input type="radio" name="gender" value="male"> Male </input>
+        <input type="radio" name="gender" value="female"> Female </input> <br><br>
+        Hobby:<input type="checkbox" name"hobby" value="cricket"> cricket </input>
+        <input type="checkbox" name"hobby" value="basketball"> basketball </input>
+        <input type="checkbox" name"hobby" value="football"> football </input>
+        <input type="checkbox" name"hobby" value="tenis"> tenis </input> <br><br>
+        select: <select> name="cars">
+            <option value="swift">swift </option>
+            <option value="baleno">baleno </option>
+            <option value="kia seltos">kia seltos </option>
+            <option value="innova">innova </option>
+            <option value="harrier">harrier </option>
+            <option value="fortuner">fortuner </option>
+        </select> <br><br>
+
+        comment:<textarea class="area1" name="comment" cols"30" rows"10>
+
+            </textarea> <br><br>
+        Select city : <input list="city" class="area1" name="city">
+        <datalist id="city">
+            <option value="Pune">
+            <option value="Ahmedabad">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist> <br><br>
+
+        Date : <input type="date" name="date"> <br><br>
+
+        Quantity : <input type="number" class="area1" name="quantity" min="0" max="500" value="20" step="5"><br><br>
+
+        Upload File : <input type="file" name="document" multiple>
+
+        <br><br>
+
+        <input type="submit" class="value1 value=" Save">
+        <input type="reset" class="value1" value="Reset Data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
